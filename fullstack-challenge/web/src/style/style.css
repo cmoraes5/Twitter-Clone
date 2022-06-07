@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    /* border: 1px solid red; */
+}
+
 body{
     background-color: #15202B;
     color: #E7E9EA;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+p{
+    padding: 0;
+    margin: 4px;
+}
+
+#tweet{
+    /* align-items: center; */
+    display: flex;
+    border-bottom: 1px solid #71767B;
+    padding: 12px;
+}
+
+.tweet_img{
+    margin-right: 8px;
+}
+
+
+@media (max-width: 640px)
+{
+    body{
+        background-color: red;
+    }
+
+    /* mobile first */
 }
